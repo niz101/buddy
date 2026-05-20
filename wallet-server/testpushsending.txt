@@ -1,0 +1,31 @@
+
+//
+run it on the terminal after the project is running
+node src/server.js
+
+
+//new terminal 
+curl -X POST http://localhost:4000/api/wallet/deposit \
+  -H "Content-Type: application/json" \
+  -d '{
+    "amount": 1,
+    "phone": "254757080914"
+  }'
+
+
+
+//new T
+running the whole project 
+npm run dev
+
+//new T
+cd hardware    
+node serial-bridge.js /dev/ttyACM0
+
+
+//new T
+cd wallet-server
+node src/server.js 
+
+
+

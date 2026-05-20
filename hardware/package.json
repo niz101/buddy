@@ -1,0 +1,14 @@
+{
+  "name": "autoshop-serial-bridge",
+  "version": "1.0.0",
+  "description": "Serial bridge between Arduino robot controller and AutoShop web app",
+  "main": "serial-bridge.js",
+  "scripts": {
+    "start": "node serial-bridge.js",
+    "start:sim": "node serial-bridge.js /dev/null 9600"
+  },
+  "dependencies": {
+    "serialport": "^12.0.0",
+    "ws": "^8.16.0"
+  }
+}
